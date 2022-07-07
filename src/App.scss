@@ -1,0 +1,40 @@
+.albumSelector{
+  h2{
+    font-size: 34px;
+  }
+  .topBar{
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    .arrow{
+      position: absolute;
+    }
+    .imgContainer{ 
+      width: 150px;
+      height: 150px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+.albumDetails{
+  width: 100%;
+}
+
+.albumDetails{
+  table, td, th {
+    border: 1px solid;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    tr:first-child{
+      background-color: lightgray;
+    }
+  }
+}
